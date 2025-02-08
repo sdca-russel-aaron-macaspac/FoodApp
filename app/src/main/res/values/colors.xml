@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Darkwinered">#462c30</color>
+    <color name="warmgold">#FFD700</color>
+    <color name="softsafron">#FFA500</color>
+
+</resources>
