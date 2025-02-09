@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     Button btn_menu;
+    Button btn_About;
 
 
     @Override
@@ -29,5 +30,13 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                 }
             });
+        btn_About = findViewById(R.id.btnAbout);
+        btn_About.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, MainActivity7.class);
+                startActivity(i);
+            }
+        });
     }
 }
