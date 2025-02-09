@@ -11,13 +11,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="376dp"
-        android:layout_height="189dp"
+        android:layout_width="378dp"
+        android:layout_height="90dp"
         android:fontFamily="@font/georgia"
         android:gravity="center"
-        android:text="Welcome to Insan Cuisine"
+        android:text="WELCOME TO "
         android:textColor="@color/warmgold"
-        android:textSize="55sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,14 +33,14 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.147"
+        app:layout_constraintVertical_bias="0.211"
         app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/georgia"
+        android:fontFamily="@font/georgiai"
         android:text="Mekus Mekus mo na yan insan!"
         android:textColor="@color/warmgold"
         android:textSize="25sp"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <Button
         android:id="@+id/btnmenu"
@@ -75,5 +75,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.915" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/georgiaz"
+        android:text="Insan Cuisine"
+        android:textColor="@color/warmgold"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
